@@ -4,22 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <h1 class="visually-hidden">Portfolio sayt haqida informatsiya </h1>
-    <div class="header">
+    <header class="header">
+        <h1 class="visually-hidden">Portfolio sayti — Asosiy sahifa</h1>
         <div class="container">
             <div class="header-container">
-                <div class="header-main">
-                    <div class="header-box">
-                        <a href="#">
-                            <h1 class="header-logo">Portfolio</h1>
-                        </a>
-                    </div>
+                <a href="#" class="header-logo">Portfolio</a>
+
+                <nav class="header-nav" id="headerNav">
                     <ul class="header-list">
                         <li><a class="header-link" href="#">Home</a></li>
                         <li><a class="header-link" href="#">About</a></li>
@@ -27,18 +26,30 @@
                         <li><a class="header-link" href="#">Portfolio</a></li>
                         <li><a class="header-link" href="#">Contact</a></li>
                     </ul>
-                </div>
+                </nav>
+
+                <button type="button" class="bars" id="burgerBtn" aria-label="Menyuni ochish">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </div>
-            <div class="bars">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+        </div>
+    </header>
+    <!-- -------------------------------hero------------------------ -->
+    <div class="hero">а
+        <h1 class="visually-hidden"></h1>
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-box">
+                    <h2 class=""> <span>Hello It's Me</span> John Kendric <span>And I'm a</span> <span>Frontend
+                            Devoloper</span></h2>
+                </div>
             </div>
         </div>
     </div>
 
-
-
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
